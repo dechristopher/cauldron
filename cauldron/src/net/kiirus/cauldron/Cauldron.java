@@ -51,7 +51,7 @@ public class Cauldron {
 				a[2][line1] = b3; a[2][line2] = a3;
 				a[3][line1] = b4; a[3][line2] = a4;
 				
-				System.out.println("sr(" + vh + ", " + line1 + ", " + "line2" + ") completed successfuly.");
+				System.out.println("swR(" + vh + ", " + line1 + ", " + "line2" + ") completed successfuly.");
 				
 			}else if(vh == 1){
 				
@@ -62,13 +62,13 @@ public class Cauldron {
 				a[line1][2] = b3; a[line2][2] = a3;
 				a[line1][3] = b4; a[line2][3] = a4;
 				
-				System.out.println("sr(" + vh + ", " + line1 + ", " + "line2" + ") completed successfuly.");
+				System.out.println("swR(" + vh + ", " + line1 + ", " + "line2" + ") completed successfuly.");
 				
 			}else{
 				System.out.println("swapRow cannot operate with a vh value other than 0 or 1.");
 			}
 		}else{
-			System.out.println("swapRow cannot operate on a simgle row. Make sure line1 and line2 have different values.");
+			System.out.println("swapRow cannot operate on a single row. Make sure line1 and line2 have different values.");
 		}
 		
 	}
@@ -82,6 +82,18 @@ public class Cauldron {
 	 */
 	public static void shR(int total, int vh, int row){
 		//TODO: Work on shR method.
+	}
+	
+	/**
+	 * shiftDiagonal
+	 * @param dir | (0-3) 0=TL->BR 1=TR->BL 2=BR->TL 3=BL->TR
+	 */
+	public static void shD(int dir){
+		//TODO: Work on shD method.
+	}
+	
+	public static void f(){
+		
 	}
 
 }
