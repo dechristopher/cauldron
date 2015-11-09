@@ -92,8 +92,11 @@ public class Cauldron {
 		//TODO: Work on shD method.
 	}
 	
+	/**
+	 * flip
+	 */
 	public static void f(){
-		
+		//TODO: Work on flip method.
 	}
 
 }
